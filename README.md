@@ -4,11 +4,11 @@ Website for an IT company showcasing its services and products
 
 Project Description
 
-TechNova Solutions is a responsive website developed for an IT company that provides technology services to individuals and businesses. The website showcases the company's services, introduces the organization, displays a gallery of its work, and allows visitors to submit service booking requests or contact the company.
+Prime Systems is a responsive website developed for an IT company that provides technology services to individuals and businesses. The website showcases the company's services, introduces the organization, displays a gallery of its work, and allows visitors to submit service booking requests or contact the company.
 
 Objectives
 
-- Provide information about TechNova Solutions and its services.
+- Provide information about Prime Systems and its services.
 - Create a user-friendly and responsive website.
 - Allow visitors to request IT services through a booking form.
 - Display images and information about the company's work.
