@@ -1,0 +1,65 @@
+/* Prime Systems IT Company - contact page */
+:root {
+  --navy: #14283e;
+  --blue: #247da2;
+  --text: #263847;
+  --muted: #657582;
+  --bg: #f4f7f9;
+}
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--text); background: var(--bg); font-family: Arial, Helvetica, sans-serif; line-height: 1.6; }
+.container { width: min(1120px, 90%); margin: 0 auto; }
+a { color: inherit; }
+.site-header { background: #fff; border-bottom: 1px solid #e4e9ef; }
+.header-content { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 86px; }
+.logo { text-decoration: none; font-size: 20px; font-weight: 800; color: var(--navy); }
+.logo span { color: var(--blue); }
+nav { display: flex; gap: 21px; flex-wrap: wrap; }
+nav a { text-decoration: none; font-weight: 600; font-size: 14px; color: #64717e; }
+nav a:hover, nav a.active { color: var(--blue); }
+.intro { padding: 70px 0 42px; }
+.eyebrow { color: var(--blue); font-size: 12px; font-weight: 700; letter-spacing: 1.8px; margin: 0 0 12px; }
+h1, h2, h3 { line-height: 1.25; }
+.intro h1 { margin: 0; color: var(--navy); font-size: clamp(32px, 5vw, 51px); }
+.intro > p:last-child { max-width: 630px; color: var(--muted); font-size: 17px; margin-top: 17px; }
+.contact-section { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 23px; padding-bottom: 76px; }
+.contact-info { background: var(--navy); color: white; padding: 40px; border-radius: 12px; }
+.contact-info .eyebrow { color: #89d7f1; }
+.contact-info h2 { font-size: 29px; margin: 0 0 12px; }
+.contact-info > p:not(.eyebrow) { color: #bdcbd6; margin-bottom: 27px; }
+.contact-detail { border-top: 1px solid #3c4f63; padding: 20px 0; }
+.contact-detail h3 { color: #9fb8c8; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; margin: 0 0 6px; }
+.contact-detail a, .contact-detail p { display: block; text-decoration: none; margin: 3px 0; overflow-wrap: anywhere; }
+.contact-detail a:hover { text-decoration: underline; }
+.form-card { background: #fff; border: 1px solid #e2e8ed; border-radius: 12px; padding: 40px; }
+.form-card h2 { font-size: 29px; color: var(--navy); margin: 0 0 5px; }
+.form-card > p { color: var(--muted); margin: 0 0 28px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.field { margin-bottom: 19px; }
+label { display: block; font-size: 13px; font-weight: 700; margin-bottom: 7px; }
+input, select, textarea { width: 100%; padding: 12px 13px; font: inherit; font-size: 14px; color: var(--text); border: 1px solid #d4dde4; border-radius: 7px; background: #fff; }
+textarea { resize: vertical; }
+input:focus, select:focus, textarea:focus { outline: 2px solid #81cde9; outline-offset: 1px; }
+button { border: 0; border-radius: 7px; background: var(--blue); color: white; font: inherit; font-size: 14px; font-weight: 700; padding: 13px 22px; cursor: pointer; }
+button:hover { background: #176383; }
+.form-note { color: #758390; font-size: 12px; margin: 16px 0 0; }
+#form-status { color: #185e51; background: #e6f5ef; padding: 12px; border-radius: 6px; }
+.booking-banner { background: #e6eff4; padding: 29px 0; }
+.booking-content { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.booking-content h2 { margin: 0; color: var(--navy); font-size: 20px; }
+.booking-content p { margin: 3px 0; color: var(--muted); font-size: 14px; }
+.booking-content a { text-decoration: none; color: var(--blue); font-weight: 700; white-space: nowrap; }
+footer { background: white; padding: 24px 0; }
+.footer-content { display: flex; justify-content: space-between; gap: 20px; }
+.footer-content p, .footer-content a { margin: 0; text-decoration: none; color: #71808a; font-size: 12px; }
+@media (max-width: 850px) {
+  .header-content { flex-direction: column; padding: 19px 0; gap: 15px; }
+  nav { justify-content: center; }
+  .contact-section { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .intro { padding: 42px 0 30px; }
+  .contact-info, .form-card { padding: 25px; }
+  .form-row { grid-template-columns: 1fr; gap: 0; }
+  .booking-content, .footer-content { flex-direction: column; align-items: start; }
+}
