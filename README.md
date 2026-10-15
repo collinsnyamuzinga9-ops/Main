@@ -30,5 +30,5 @@ Technologies Used
 - Bootstrap – Responsive design and interface components.
 - JavaScript – Interactive website features.
 - GitHub – Version control and group collaboration.
-- GitHub Pages – Website hostin
+- GitHub Pages – Website hosting
 
