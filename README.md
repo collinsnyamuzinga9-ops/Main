@@ -1,34 +1,12 @@
-# Main
-Website for an IT company showcasing its services and products
+# Prime Systems Website
 
+Responsive static website for Prime Systems, an IT services business in Zimbabwe.
 
-Project Description
+## Open in VS Code
 
-Prime Systems is a responsive website developed for an IT company that provides technology services to individuals and businesses. The website showcases the company's services, introduces the organization, displays a gallery of its work, and allows visitors to submit service booking requests or contact the company.
+Open this repository folder in VS Code. Open `index.html` to view the homepage, or `contact.html` for the contact page. The `.vscode` launch configuration opens the homepage in Microsoft Edge.
 
-Objectives
+The site uses plain HTML and CSS; no build step is required. It includes `index.html`, `about.html`, `services.html`, `gallery.html`, `booking.html`, and `contact.html`, with shared styles in `styles.css` and images in `Images/`.
 
-- Provide information about Prime Systems and its services.
-- Create a user-friendly and responsive website.
-- Allow visitors to request IT services through a booking form.
-- Display images and information about the company's work.
-- Provide contact information and a contact form.
-
-Website Pages
-
-- Home: Introduction to the company and featured services.
-- About Us: Company background, mission, vision, and values.
-- Services: Overview of the IT services offered.
-- Gallery: Images showcasing technology and company work.
-- Booking: A form for requesting IT services.
-- Contact: Contact information and a form for sending inquiries.
-
-Technologies Used
-
-- HTML5 – Website structure.
-- CSS3 – Custom styling and layout.
-- Bootstrap – Responsive design and interface components.
-- JavaScript – Interactive website features.
-- GitHub – Version control and group collaboration.
-- GitHub Pages – Website hosting
+Before using the forms or publishing as a production service, confirm the contact details and team information and connect the booking form to a service that can receive submissions. The included forms may only demonstrate the front end.
 
